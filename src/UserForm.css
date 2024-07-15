@@ -1,0 +1,42 @@
+.user-container{
+  width: 70%;
+  border: 1px solid;
+  margin: auto;
+  padding: 20px;
+  background-image: url(aaa.jpg);
+  padding-left: 70px;
+  margin-top: 60px;
+  border-radius: 15px;
+}
+.user-heading{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+label{
+  clear: right;
+  float: left;
+  width: 160px;
+  color: black;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+input{
+  width: 60%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.centre{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.user-background{
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20px;
+}
