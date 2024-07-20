@@ -20,7 +20,7 @@ import ToggleButton from '@mui/material/ToggleButton';
 import SchemaTwoToneIcon from '@mui/icons-material/SchemaTwoTone';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import { Link } from 'react-router-dom'; 
-import AnchorTemporaryDrawer from './TableForm';
+import AnchorTemporaryDrawer from '../TableForm';
 import axios from 'axios';
 import AnchorDrawer from './Edittable';
 

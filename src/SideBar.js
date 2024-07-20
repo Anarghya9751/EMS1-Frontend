@@ -18,23 +18,26 @@ const SideBar = () => {
   const handleListItemClick = (index, text) => {
     setSelectedIndex(index);
     if (text === 'Dashboard') {
-      navigate('/dashboard');
+      navigate('/Dashboard');
     } else if (text === 'Organisation') {
-      navigate('/organ');
+      navigate('/Organisation');
     }
     else if (text === 'Branch') {
-      navigate('/branch');
+      navigate('/Branch');
     }
     else if (text === 'Department') {
-      navigate('/department');
+      navigate('/Department');
     }
     else if (text === 'Designation') {
-      navigate('/designation');
+      navigate('/Designation');
+    }
+    else if (text === 'Employee'){
+      navigate('/Employee')
     }
     
   };
 
-  const menuItems = ['Dashboard', 'Organisation', 'Branch', 'Department', 'Designation'];
+  const menuItems = ['Dashboard', 'Organisation', 'Branch', 'Department', 'Designation','Employee'];
   const logoutItem = 'Logout';
 
   return (

@@ -4,23 +4,14 @@ import React from "react";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import { Link as Router } from 'react-router-dom';
 import MenuAppBar from "./Navbar";
-import  Organization  from "./Organization";
+import  Organisation  from "./Organisation";
 import SideBar from "./SideBar";
-import OrganizationPage from "./OrganizationPage";
-import AnchorTemporaryDrawer from "./AddOrganization";
-import ProjectDetails from "./AddProject";
-import ProjectPage from "./ProjectPage";
-import Project from "./Projectpopup";
-import PaginatedTable from "./TableData";
-import UserForm from "./UserForm"
-import LoginPage from "./LoginPage";
+import Branch from "./Branch";
 import Dashboard from "./Dashboard";
-import HRpage1 from "./HRpage";
-import AddProfile from "./Addprofile";
-import MyTable from "./MyTabble";
-import MyChart from "./MyTabble";
-import MyCards from "./MyTabble";
-import ForgotPasswordPage from "./ForgotPasswordPage";
+import Designation from "./Designation";
+import Department from "./Department";
+import EmployeeTable from "./Employee";
+
 
 export default function App() {
   return (
@@ -30,22 +21,16 @@ export default function App() {
      <div>
    <MenuAppBar/> 
    <SideBar/> 
-   <MyCards/>
-
-  {/* <HRpage1/> */}
-   
-  {/* <PaginatedTable/> */}
-  {/* <LoginPage/> */}
-  {/* <Dashboard/> */}
-
     </div>
     
     <Router>
       <Routes>
-      {/* <Route path="/" element={<LoginPage />} /> */}
-          {/* <Route path="/forgot-password" element={<ForgotPasswordPage/>} />  */}
-          {/* <Route path="/" element={<OrganizationPage/>} />  */}
-           {/* <Route path="/" element={<ProjectPage/>} />  */}
+      <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Organisation" element={<Organisation/>} /> 
+          <Route path="/Branch" element={<Branch/>} /> 
+           <Route path="/Department" element={<Department/>} /> 
+           <Route path="/Designation" element={<Designation/>}/>
+           <Route path="/Employee" element={<EmployeeTable/>}/>
       </Routes> 
       </Router>
     </BrowserRouter>

@@ -402,7 +402,7 @@ const ProjectDetails = ({ closeDrawer }) => {
                 sx={{ margin: '10px' }}
               >
                 Cancel
-              </Button>
+              </Button>8
             </Grid>
           </Grid>
         </CardContent>
